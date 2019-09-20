@@ -1,0 +1,136 @@
+/* General */
+
+html{
+  overflow-x: hidden;
+  width: 100vw;
+  /*background-color:hsl(210,38%,97%);*/
+}
+
+/* Text */
+
+.title{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: calc(40px + (60 - 40) * ((100vw - 320px) / (1440 - 60)));
+  color: black;
+  padding-left: .6em;
+  padding-left: 2vw;
+  margin:0;
+  margin-top: 5vh;
+}
+
+/* Link */
+
+.generallink {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 3px solid #fff;
+  -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+.generallink:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+  transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+/* Home Page */
+
+header{
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+header .title{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: calc(60px + (80 - 60) * ((100vw - 320px) / (1440 - 80)));
+  color: black;
+  padding-left: .6em;
+  padding-left: 2vw;
+  margin:0;
+  margin-top: 5vh;
+}
+
+/* ABOUT */
+#about p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: calc(28px + (32 - 28) * ((100vw - 320px) / (1440 - 32)));
+  text-align: center;
+}
+
+/* TEAM */
+
+.main-profile{
+  margin: 10px;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 1px #888888;
+  /* background-color : NEEDED  */
+}
+
+.main-profile img{
+  width: 200px;
+  height: 200px;
+  margin: 12px;
+  border-radius: 100%;
+}
+
+.main-profile h1{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: calc(30px + (35 - 30) * ((100vw - 320px) / (1440 - 35)));
+  margin-top: 24px;
+}
+
+.main-profile p{
+  ont-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: calc(28px + (32 - 28) * ((100vw - 320px) / (1440 - 32)));
+}
+
+/* PRICING */
+
+.price-container{
+  margin: 10px;
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 1px #888888;
+  display: inline-block;
+  
+}
+
+/*
+<---General-Info--->
+
+
+COLORS:
+
+  charcoal: #373737
+  void: #0E0B16
+  nice white: #EFEFEF
+  orange: #B82601
+
+
+FONT SCALING:
+
+  from: https://css-tricks.com/snippets/css/fluid-typography/
+
+  abstract: font-size: calc([min size] + ([max size] - [min size]) * ((100vw - [min viewport width]) / ([max viewport width] - [min viewport width])));
+  
+  custom: font-size: calc(min px + (max - min) * ((100vw - 320px) / (1440 - max)));
+
+*/
