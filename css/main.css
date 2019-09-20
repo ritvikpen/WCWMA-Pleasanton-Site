@@ -19,6 +19,13 @@ html{
   margin-top: 5vh;
 }
 
+.subtitle{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: calc(30px + (35 - 30) * ((100vw - 320px) / (1440 - 35)));
+  margin-top: 24px;
+}
+
 /* Link */
 
 .generallink {
@@ -42,24 +49,26 @@ html{
 /* Home Page */
 
 header{
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  margin-bottom: 30px;
+  background-image: url("https://images.unsplash.com/photo-1514050566906-8d077bae7046?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+  
 }
 
 header .title{
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: calc(60px + (80 - 60) * ((100vw - 320px) / (1440 - 80)));
-  color: black;
+  color: white;
   padding-left: .6em;
   padding-left: 2vw;
   margin:0;
   margin-top: 5vh;
+  text-shadow: 0px 10px 20px black;
 }
 
 /* ABOUT */
@@ -96,7 +105,7 @@ header .title{
 }
 
 .main-profile p{
-  ont-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: calc(28px + (32 - 28) * ((100vw - 320px) / (1440 - 32)));
 }
@@ -110,27 +119,22 @@ header .title{
   padding: 10px;
   box-shadow: 0px 0px 15px 1px #888888;
   display: inline-block;
-  
+  width: 100%;
+  height: auto;
 }
 
-/*
-<---General-Info--->
+#intro-package{
+  font-size: 1000%;
+  margin-left: 10px;
+}
 
+#intro-desc{
+  padding-left: 30px;
+  margin-left: 30px;
+}
 
-COLORS:
-
-  charcoal: #373737
-  void: #0E0B16
-  nice white: #EFEFEF
-  orange: #B82601
-
-
-FONT SCALING:
-
-  from: https://css-tricks.com/snippets/css/fluid-typography/
-
-  abstract: font-size: calc([min size] + ([max size] - [min size]) * ((100vw - [min viewport width]) / ([max viewport width] - [min viewport width])));
-  
-  custom: font-size: calc(min px + (max - min) * ((100vw - 320px) / (1440 - max)));
-
-*/
+#intro-desc p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: calc(28px + (32 - 28) * ((100vw - 320px) / (1440 - 32)));
+}
