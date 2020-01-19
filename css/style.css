@@ -1,4 +1,9 @@
 /* Custom Stylesheet */
+
+#home-column-text{
+  text-align: justify;
+}
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
