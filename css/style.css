@@ -58,15 +58,16 @@
 .container-icon {
   display: inline-block;
   cursor: pointer;
-  background-color: #000000;
-  margin-top: 20px;
+  background-color: white;
+  margin-top: 10px;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #B82601;
+  background-color: black;
   margin: 6px 0;
 }
 
