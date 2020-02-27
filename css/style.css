@@ -1,9 +1,5 @@
 /* Custom Stylesheet */
 
-#home-column-text{
-  text-align: justify;
-}
-
 .underline {
   display: inline;
   background-image: linear-gradient(
@@ -18,12 +14,37 @@
     animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
 
+
+
 @keyframes animatedBackground {
     to {
         background-size: 100% 100%;
     }
 }
 
+
+/* Home Page*/
+#home-column-text{
+  text-align: justify;
+}
+
+
+/* About Us */
+.profile_box img{
+  border-radius: 55px;
+  margin-left: 10vw;
+}
+
+.profile_box div h4{
+  margin-top: 0;
+}
+
+#meet-team{
+  margin-bottom: 7vh;
+}
+
+
+/* PREMADE */
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
