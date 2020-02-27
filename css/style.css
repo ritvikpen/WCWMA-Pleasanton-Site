@@ -14,14 +14,17 @@
     animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
 
-
-
-@keyframes animatedBackground {
-    to {
-        background-size: 100% 100%;
-    }
+.down-arrow{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+  padding-bottom: 10vh;
+  display: block;
+  transition: opacity 0.5s;
+  animation: bounce 2.5s infinite;
 }
-
 
 /* Home Page*/
 #home-column-text{
@@ -30,9 +33,14 @@
 
 
 /* About Us */
+.profile_box{
+  margin-top: 5vh;
+}
+
 .profile_box img{
   border-radius: 55px;
   margin-left: 10vw;
+  margin-bottom: 5vh;
 }
 
 .profile_box div h4{
@@ -40,7 +48,20 @@
 }
 
 #meet-team{
+  margin-top: 5vh;
   margin-bottom: 7vh;
+}
+
+
+
+
+
+/* MISC */
+
+@keyframes animatedBackground {
+  to {
+      background-size: 100% 100%;
+  }
 }
 
 
