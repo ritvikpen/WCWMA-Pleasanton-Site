@@ -56,8 +56,16 @@ html{
   margin-bottom: 7vh;
 }
 
-/* MISC */
 
+/* Programs */
+.program_container{
+  border-radius: 35px;
+}
+
+
+
+
+/* MISC */
 @keyframes animatedBackground {
   to {
       background-size: 100% 100%;
