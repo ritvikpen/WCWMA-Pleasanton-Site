@@ -64,30 +64,45 @@ html{
   border: 1px solid black;
   */
   box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
-  margin-bottom: 15px;
+  margin: 15px;
   padding: 15px;
 }
 
 #prog_green{
-	border-top: 4px solid #4caf50;
+	border-top: 8px solid #4caf50;
 	border-bottom: 4px solid #4caf50;
+	background-color: rgba(0,255,0,0.028);
 }
 
 #prog_blue{
-	border-top: 4px solid #2196f3;
+	border-top: 8px solid #2196f3;
 	border-bottom: 4px solid #2196f3;
+	background-color: rgba(0,0,255,0.025);
 }
 
 #prog_orange{
-	border-top: 4px solid #ff5722;
+	border-top: 8px solid #ff5722;
 	border-bottom: 4px solid #ff5722;
+	background-color: rgba(255,160,0,0.025);
 }
 
 #prog_summer{
 	border-left: 6px solid #ff9800;
 	border-right: 6px solid #ff9800;
+	background-color: rgba(255,215,0,0.025);
 }
 
+#prog_winter{
+	border-left: 6px solid #2196f3;
+	border-right: 6px solid #2196f3;
+	background-color: rgba(0,0,255,0.025);
+}
+
+/* Contact */
+.largerIcon{
+	padding-top: 10px;
+	font-size: 110%;
+}
 
 
 /* MISC */
