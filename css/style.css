@@ -30,6 +30,23 @@ html{
   animation: bounce 2.5s infinite;
 }
 
+.bold{
+  font-weight: 600;
+}
+
+.about-container{
+  padding-top: 3vh;
+}
+
+.about-container div h3{
+  margin-left: 3vw;
+  font-weight: 190%;
+}
+
+.about-container div p{
+  margin-left: 3vw;
+}
+
 /* Home Page*/
 #home-column-text{
   text-align: justify;
@@ -55,6 +72,7 @@ html{
   margin-top: 5vh;
   margin-bottom: 7vh;
 }
+
 
 
 /* Programs */
